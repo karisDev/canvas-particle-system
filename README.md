@@ -1,4 +1,4 @@
-#canvas particle system
+# Canvas particle system
 
 A base script for creating particles around the mouse
 
