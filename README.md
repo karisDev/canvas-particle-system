@@ -1,6 +1,10 @@
 # Canvas particle system
 
-A base script for creating particles around the mouse
+Studying the creation of particles
+
+## Screenshot
+
+![Screenshot](result.png)
 
 ## Credits
 
