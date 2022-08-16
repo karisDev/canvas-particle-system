@@ -2,6 +2,8 @@
 
 Studying the creation of particles
 
+[Github pages](https://karisdev.github.io/canvas-particle-system/)
+
 ## Screenshot
 
 ![Screenshot](result.png)
