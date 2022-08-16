@@ -44,7 +44,7 @@ class Particle {
   update() {
     this.x += this.speedX;
     this.y += this.speedY;
-    if (this.size > 0.2) this.size -= 0.05;
+    if (this.size > 0.2) this.size -= 0.1;
   }
   draw() {
     ctx.fillStyle = this.color;
@@ -60,7 +60,7 @@ function handleParticles() {
     particlesArray[i].draw();
 
     // Pythagorean theorem
-    for (let j = i; j < particlesArray.length; j++) {
+    for (let j = i + 10; j < particlesArray.length; j++) {
       const dx = particlesArray[i].x - particlesArray[j].x;
       const dy = particlesArray[i].y - particlesArray[j].y;
       const distance = Math.sqrt(dx * dx + dy * dy);
